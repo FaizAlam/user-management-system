@@ -1,0 +1,24 @@
+<%- include('include/_header') %> 
+    <!---HEADER ENDS-->
+    
+    <!---Body table-->
+     <!-- Main Site -->
+     <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex justify-between">
+               <div class="filter">
+                   <a href="/"><i class="bi bi-chevron-double-left"></i> All Users</a>
+               </div>
+            </div>
+            <div class="form-title text-center">
+                <h2 class="text-dark">New User</h2>
+                <span class="text-light" style="color:#696969 !important">Use the below form to create a new account</span>
+            </div>
+
+            <!-- form handling -->
+            <%-include('include/_form')%>
+            
+        </div>
+    </main>
+<!-- /Main Site -->
+<%-include('include/_footer')%>
